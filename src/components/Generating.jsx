@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { loading } from "../../assets";
+import { loading } from "../assets";
 
 const Generating = ({ className }) => {
 	return (
