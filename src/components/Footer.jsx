@@ -7,7 +7,7 @@ const Footer = () => {
     <Section crosses >
       <div className='container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col'>
 
-        <p className='caption text-n-4  lg:block'>C {new Date().getFullYear()}. All rights reserved.</p>
+        <p className='caption text-n-4  lg:block'>© {new Date().getFullYear()}. All rights reserved.</p>
 
         <ul className='flex gap-5 flex-wrap'>
           {socials.map(item => {
